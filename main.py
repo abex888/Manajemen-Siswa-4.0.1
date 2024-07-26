@@ -10,26 +10,23 @@ from library_data import KelolaData
 from tentang import Tentang
 
 
-deskripsi = '''
-Nama Program: 
-Manajemen Siswa SMP Negeri 2 Bojongpicung
+deskripsi = '''MANAJEMEN SISWA SMP NEGERI 2 BOJONGPICUNG
+Penulis		: Aries Aprilian (abex888@gmail.com)
+Versi		: 4.0.1
+Lisensi		: GNU GPL versi 3
 
-Versi: 
-4.0.1
-
-Penulis Program: 
-Aries Aprilian (abex888@gmail.com)
-
-Lisensi: 
-GNU GPL Versi Terbaru
-
+=============================================
 PENJELASAN:
 Program ini membuat dan memanipulasi Database Siswa. Pada dasarnya bisa digunakan di sekolah mana saja tapi versi awal sampai dengan versi saat ini dikembangkan untuk digunakan digunakan di SMP Negeri 2 Bojongpicung
+
 Program ini akan membuat database dari file format Microsoft Excel. Pada dasarnya modul database di file ini dapat membuat database dengan header apapun karena modulnya dibuat agar dapat membuat database terlepas dari kolom yang ada di file Excelnya. 
+
 Namun demikian, modul utama program ini dibuat untuk database yang biasa digunakan di SMPN 2 Bojongpicung, yaitu database yang biasa ada di Data Siswa pada File Hanca SMPN 2 Bojongpicung. 
+
 Adapun header sheet data siswa di file Hanca terdiri dari:
 No, Kelas, "No Absen", NIPD, NISN, "Nama Peserta Didik", "L/P", "Wali Kelas", "Kelas Titipan", "Tempat, Tgl Lahir", "Nama Orang Tua", Kampung, RT, RW, Desa, Kecamatan, sehingga jika sekolah lain akan menggunakan Program ini, file Excel yang dibuat harus terdiri dari kolom tersebut. 
-Untuk memudahkan, di modul kelola data (File -> Kelola) pengguna bisa membuat file format Excel kosong dengan kolom yang dipakai pada program ini.
+
+Untuk memudahkan, pada menu File -> Buat Format Excel) pengguna bisa membuat file format Excel kosong dengan kolom yang dipakai pada program ini.
 
 '''
 
